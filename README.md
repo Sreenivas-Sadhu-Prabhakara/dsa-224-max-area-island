@@ -12,6 +12,13 @@ One mutation to dsa-161's island counter: the sinking DFS *returns a count* — 
 
 **Complexity:** O(R·C) time; recursion up to the island size.
 
+## Visual walkthrough
+
+Read the picture top to bottom — each numbered frame is one moment of the algorithm
+running on this repo's test example.
+
+![Step-by-step visual walkthrough](viz.svg)
+
 ## Run
 
     go test ./...   # verify
